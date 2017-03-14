@@ -1,0 +1,96 @@
+
+img {
+max-width: 100%;
+float: center;
+}
+
+a {
+text-decoration: none;
+border-bottom: 1px dotted;
+padding-bottom: .1em;
+
+}
+
+
+ h1 {font: bold 1.5em;
+text-shadow: .1em .1em .2em
+blue;
+text-align:center;
+color: darkblue;
+letter-spacing: 5px;
+text-transform: capitalize;
+	}
+hr{border-bottom: 4px;
+color:crimson;}
+	h2 {
+letter-spacing: 5px;
+text-transform: capitalize;
+text-shadow: .1em .1em .2em chartreuse;
+color: darkgreen;
+border-top: 4px solid;
+border-left: 6px solid;
+margin-top: .25em;
+clear: both;}
+h3 {
+letter-spacing: 5px;
+text-transform: capitalize;
+text-shadow: .1em .1em .2em brown;
+color:burlywood;
+border-top: 4px solid;
+border-left: 6px solid;
+}
+p{font-style: italic;
+	margin-left: 1em;
+	text-align: justify;
+color:darkblue;}
+p:first-letter { font-size: 200%; color: blue;}
+
+body{ background-color: cornflowerblue;
+  padding: 1em 3%;
+  border: 6px double darkblue;
+  clear: both; }
+#header{background: url(imagen/fondo.png) }
+
+#nav {
+overflow: hidden;
+width:100%;
+background-image: url(imagen/fondo.png);
+
+}
+#nav ul {
+list-style-type: none;
+list-style: none;
+padding: 0;
+float: left;
+}
+#nav ul li a {
+display: block;
+padding: .5em;
+border: 2px solid darkblue;
+border-radius: .5em;
+margin: .1em;
+width:6em;
+height: 3em;
+
+}
+#nav ul a:focus {
+color:brown;
+border-color: burlywood;
+}
+#nav ul a:hover {
+color:darkgreen;
+border-color:chartreuse;
+}
+#nav ul li {
+float: left;
+}
+blockquote{ margin-left: 2em;}
+	@media screen and (min-width: 481px) {
+
+#main{
+padding: 1em 2%;
+border: double darkblue;
+clear: both;
+background-color: cornflowerblue;
+}
+}
